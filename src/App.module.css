@@ -1,0 +1,11 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 256px 1fr; /*256px largura fixa e fr quer dizer largura flexivel a tela*/
+    gap: 2rem; /*distancia entre os elementos*/
+    align-items: flex-start; /*faz com que as caixas não estiquem juntas, mas ao tamanho do conteudo*/
+
+    max-width: 70rem; /*Div por padrão já tem o width de 100%*/
+    margin: 2rem auto; /*Você pode usar como opcional quando não quiser o display: flex*/
+    padding: 0 1rem; /*Margem interna para não colar nas bordas do margin*/
+    background-color: var();
+}
