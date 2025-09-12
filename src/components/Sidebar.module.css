@@ -21,8 +21,9 @@
     box-sizing: initial;
     width: 3.75rem;
     height: 3.75rem;
-    border: 4px solid var(--green-800);
+    border: 4px solid var(--gray-800);
     outline: 2px solid var(--green-500);
+    border-radius: 8px;
     object-fit: cover;
 }
 
@@ -30,6 +31,11 @@
     margin-top: 1rem;
     color: var(--gray-100);
     line-height: 1.6; /* Altura da linha */
+}
+
+.profile span {
+    font-size: 0.875rem;
+    color: var(--gray-400);
 }
 
 .aside footer { /*como se tem um unico footer no elemento pai não tem problema estilzar assim*/
@@ -56,5 +62,5 @@
 .aside footer a:hover {
     background: var(--green-500);
     color: var(--white);
-    transition: 800ms;
+    transition: 600ms;
 }

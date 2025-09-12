@@ -1,5 +1,5 @@
-import { Card } from './Post';
 import { Header } from "./components/Header";
+import { Post } from './components/Post';
 
 import './global.css';
 import style from './App.module.css';
@@ -13,7 +13,7 @@ export function App() {
       <div className={style.wrapper}>
         <Sidebar/>
         <main>
-          <Card name="Gabriel" content="Desenvolvedor Full Stack"/>
+          <Post />
         </main>
       </div>
     </div>
