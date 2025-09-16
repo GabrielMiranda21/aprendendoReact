@@ -54,10 +54,65 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+    line-height: 1.6;
+    border-bottom: 1px solid var(--gray-600);
 }
 
 .conteudo .superTexto {
     color: var(--green-500);
     font-weight: bold;
+    text-decoration: none;    
+    margin-right: 1rem;
+}
+
+.conteudo .containerSuper{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+}
+
+.conteudo .containerSuper.superTexto {
+    color: var(--green-500);
+    font-weight: bold;
     text-decoration: none;
+}
+
+.conteudo .containerSuper .superTexto:hover,
+.conteudo .superTexto:hover {
+    color: var(--green-300);
+}
+
+.formComment {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.formComment > strong {
+    margin-bottom: 1rem;
+}
+
+.formComment > textarea {
+    height: 6rem;
+    padding: 1rem;
+    background: var(--gray-900);
+    color: var(--white);
+    margin-bottom: 1rem ;
+    line-height: 1.4;
+}
+
+.formComment > button {
+    width: 6.75rem;
+    height: 3.0625rem;
+    border: none;
+    background: var(--green-500);
+    color: var(--white);
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.formComment > button:hover {
+    background: var(--green-300);
 }

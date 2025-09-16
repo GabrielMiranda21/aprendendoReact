@@ -28,8 +28,20 @@ export function Post(){
 
                 <a className={style.superTexto} href='#'>👉 jane.design/doctorcare</a>
 
-                <p className={style.superTexto}>#novoprojeto #nlw #rocketseat</p>
+                <div className={style.containerSuper}>
+                    <a className={style.superTexto} href='#'>#novoprojeto</a>
+                    <a className={style.superTexto} href='#'>#nlw</a>
+                    <a className={style.superTexto} href='#'>#rocketseat</a>
+                </div>
             </div>
+
+            <form className={style.formComment}>
+                <strong>Deixe seu feedback</strong>
+
+                <textarea />
+
+                <button>Publicar</button>
+            </form>
         </article>  
     )
 }
